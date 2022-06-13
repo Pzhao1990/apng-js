@@ -5,9 +5,9 @@ module.exports = [
     entry: path.join(__dirname, 'src', 'library', 'parser.js'),
     output: {
       path: path.join(__dirname, 'lib'),
-      filename: 'index.js',
-      library: 'apng-js',
-      libraryTarget: 'umd'
+      filename: 'apngjs.js', // 文件名
+      library: 'apngjs', // 变量名
+      libraryTarget: 'var' // 修改打包格式，这样可以通过srcipt标签直接引用
     },
     module: {
       loaders: [
@@ -38,7 +38,7 @@ module.exports = [
           loader: 'style-loader!css-loader'
         }
       ]
-    }/*,
+    } /*,
      plugins: [
      new webpack.optimize.UglifyJsPlugin({
      compress: {
