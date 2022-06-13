@@ -2,6 +2,8 @@
 
 <!-- 打包命令: yarn prepublish -->
 
+webpack libraryTarget 代码结构 https://www.jianshu.com/p/d22f678af5b7
+
 `apng-js` provides functions for parse and render animated PNG's
 ([APNG](https://en.wikipedia.org/wiki/APNG)).
 
