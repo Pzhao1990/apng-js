@@ -1,6 +1,6 @@
 # apng-js
 
-webpack.config.js 配置文件我已修改，打成的包，可以通过 script 标签直接使用
+webpack.config.js 配置文件我已修改，打成的包在 lib 中，可以通过 script 标签直接使用
 
 ## 使用方法
 
