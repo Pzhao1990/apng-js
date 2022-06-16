@@ -1,6 +1,12 @@
 # apng-js
 
-<!-- 打包命令: yarn prepublish -->
+webpack.config.js 配置文件我已修改，打成的包，可以通过 script 标签直接使用
+
+## 使用方法
+
+1、执行安装依赖包命令 yarn
+2、执行打包命令: yarn prepublish
+3、将生成的 apngjs.js 中 exports.default = parseAPNG 改成 exports.parseAPNG = parseAPNG 即可
 
 webpack libraryTarget 代码结构 https://www.jianshu.com/p/d22f678af5b7
 
